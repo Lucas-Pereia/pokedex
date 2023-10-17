@@ -1,0 +1,25 @@
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttonContainer button{
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 20px;
+    border: solid 3px blue;
+    color: blue;
+    font-weight: 700;
+    background-color: rgb(246, 235, 26);
+    padding: 10px;
+    border-radius: 20px;
+    height:  70px;
+}
+
+.buttonContainer button:hover{
+    background-color: rgb(16, 16, 152);
+    color: rgb(246, 235, 26);
+    border: solid 3px rgb(246, 235, 26);
+}

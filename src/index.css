@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+}
+
+.navBar{
+  width: 100%;
+}
+
+body.theme-light{
+  background-color: #eeeeee;
+  color: #000000;
+}
+
+body.theme-dark {
+  background-color: rgb(79, 75, 75);
+  color: #ffffff;
+}
